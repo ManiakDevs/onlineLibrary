@@ -1,0 +1,96 @@
+﻿
+body 
+{
+    background-color : black;
+    color : deeppink;
+    font-family : monospace, Arial, Helvetica, sans-serif;
+
+}
+
+a
+{
+    text-decoration : none !important;
+    color : deeppink;
+}
+
+.register
+{
+    width : 500px;
+    height : 400px;
+    border-style : solid;
+    border-color : aqua;
+    text-align : center;
+    margin-left : 50%;
+}
+
+.login
+{
+    width : 500px;
+    height : 300px;
+    border-style : solid;
+    border-color : aqua;
+    text-align : center;
+    margin-left : 50%;
+
+
+}
+
+.header
+{
+    display : grid;
+    grid-template-columns : 40% 50% 10%;
+    grid-column-gap : 1em;
+    height : 15%;
+
+}
+
+.header > div
+{
+    padding : 1em;
+    /*background-color : aqua;*/
+
+}
+
+.header > div:nth-child(odd)
+{
+    /*background-color : silver;*/
+
+}
+
+
+
+
+
+.wrapper
+{
+    display : grid;
+    grid-template-columns : 25% 50% 25%;
+    grid-template-rows : 85% ;
+    grid-column-gap : 1em;
+    height : 85%;
+
+}
+
+.wrapper > div
+{
+    padding : 1em;
+    background-color : aqua;
+
+}
+
+.wrapper > div:nth-child(odd)
+{
+    background-color : silver;
+
+}
+
+.searchButton
+{
+    width : 100px;
+    height : 20px;
+    border-radius : 20px;
+
+}
+
+
+/*mobile*/
